@@ -1,0 +1,1476 @@
+make: Für das Ziel „all“ ist nichts zu tun.
+# GNU Make 4.1
+# Gebaut für x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# Lizenz GPLv3+: GNU GPL Version 3 oder später <http://gnu.org/licenses/gpl.html>
+# Dies ist freie Software: Sie können sie nach Belieben ändern und weiter verteilen.
+# Soweit es die Gesetze erlauben gibt es KEINE GARANTIE.
+
+# „Make“-Datenbank; erstellt am: Thu Apr  4 09:46:29 2024
+
+# Variablen
+
+# „override“-Anweisung
+GNUMAKEFLAGS := 
+# automatisch
+<D = $(patsubst %/,%,$(dir $<))
+# automatisch
+?F = $(notdir $?)
+# Umgebung
+DESKTOP_SESSION = ubuntu
+# Standard
+.SHELLFLAGS := -c
+# Umgebung
+XDG_SESSION_TYPE = x11
+# Standard
+CWEAVE = cweave
+# automatisch
+?D = $(patsubst %/,%,$(dir $?))
+# Makefile (aus „Makefile“, Zeile 7)
+INSTALL = /usr/bin/install
+# automatisch
+@D = $(patsubst %/,%,$(dir $@))
+# Umgebung
+XAUTHORITY = /home/gneiss/.Xauthority
+# Umgebung
+GDMSESSION = ubuntu
+# Umgebung
+XMODIFIERS = @im=ibus
+# Makefile
+CURDIR := /home/gneiss/libsml/MyExample
+# Makefile
+SHELL = /bin/sh
+# Standard
+RM = rm -f
+# Standard
+CO = co
+# Umgebung
+VTE_VERSION = 5202
+# Umgebung
+JOURNAL_STREAM = 9:406113
+# Standard
+PREPROCESS.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -F
+# Standard
+LINK.m = $(OBJC) $(OBJCFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# Umgebung
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# Standard
+OUTPUT_OPTION = -o $@
+# Standard
+COMPILE.cpp = $(COMPILE.cc)
+# Makefile (aus „Makefile“, Zeile 1)
+MAKEFILE_LIST :=  Makefile
+# automatisch
+@F = $(notdir $@)
+# Makefile (aus „Makefile“, Zeile 8)
+prefix = /usr/local
+# Umgebung
+IM_CONFIG_PHASE = 2
+# Umgebung
+USERNAME = gneiss
+# Standard
+LINK.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# Makefile (aus „Makefile“, Zeile 3)
+CXXFLAGS = -I../sml/include/ -Wall -Wextra -pedantic
+# Umgebung
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# Umgebung
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# Umgebung
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=a248de99307606863f6e7488660e559d
+# Standard
+CC = cc
+# Umgebung
+_ = /usr/bin/make
+# Makefile (aus „Makefile“, Zeile 4)
+OBJS = SmlCommon.o SmlCrc16.o SmlByteReader.o SmlBuffer.o Decoder.o SmlServer.o
+# Standard
+CHECKOUT,v = +$(if $(wildcard $@),,$(CO) $(COFLAGS) $< $@)
+# Umgebung
+MANAGERPID = 27441
+# Umgebung
+CLUTTER_IM_MODULE = xim
+# Umgebung
+LESSOPEN = | /usr/bin/lesspipe %s
+# Standard
+CPP = $(CC) -E
+# Standard
+LINK.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# Standard
+MAKE_HOST := x86_64-pc-linux-gnu
+# Umgebung
+PATH = /home/gneiss/.local/bin:/usr/local/android-sdk/platform-tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# Standard
+LD = ld
+# Standard
+TEXI2DVI = texi2dvi
+# Umgebung
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# Standard
+YACC = yacc
+# Umgebung
+SESSION_MANAGER = local/GNAspire:@/tmp/.ICE-unix/27481,unix/GNAspire:/tmp/.ICE-unix/27481
+# Standard
+COMPILE.mod = $(M2C) $(M2FLAGS) $(MODFLAGS) $(TARGET_ARCH)
+# Umgebung
+XDG_RUNTIME_DIR = /run/user/1000
+# Makefile (aus „Makefile“, Zeile 2)
+CFLAGS = -I../sml/include/ -g -std=c99 -Wall -Wextra -pedantic
+# Standard
+ARFLAGS = rv
+# Umgebung
+TEXTDOMAIN = im-config
+# Standard
+LINK.r = $(FC) $(FFLAGS) $(RFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# Standard
+LINT = lint
+# Standard
+COMPILE.f = $(FC) $(FFLAGS) $(TARGET_ARCH) -c
+# Standard
+LINT.c = $(LINT) $(LINTFLAGS) $(CPPFLAGS) $(TARGET_ARCH)
+# Standard
+YACC.m = $(YACC) $(YFLAGS)
+# Standard
+YACC.y = $(YACC) $(YFLAGS)
+# Standard
+AR = ar
+# Umgebung
+XDG_MENU_PREFIX = gnome-
+# Umgebung
+INVOCATION_ID = e26cfb9126e14e7d89ad234092a0ca2a
+# Standard
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# Standard
+TANGLE = tangle
+# Umgebung
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# Umgebung
+XDG_SESSION_DESKTOP = ubuntu
+# Umgebung
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# Standard
+GET = get
+# automatisch
+%F = $(notdir $%)
+# Umgebung
+DISPLAY = :0
+# Standard
+COMPILE.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# Makefile (aus „Makefile“, Zeile 9)
+exec_prefix = ${prefix}
+# Standard
+CTANGLE = ctangle
+# Umgebung
+GTK_IM_MODULE = ibus
+# Standard
+.LIBPATTERNS = lib%.so lib%.a
+# Standard
+LINK.C = $(LINK.cc)
+# Umgebung
+PWD = /home/gneiss/libsml/MyExample
+# Makefile (aus „Makefile“, Zeile 10)
+bindir = ${exec_prefix}/bin
+# Standard
+LINK.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# Umgebung
+XDG_SEAT = seat0
+# Standard
+PREPROCESS.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -F
+# Umgebung
+SSH_AGENT_PID = 27567
+# Standard
+LINK.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# Makefile (aus „Makefile“, Zeile 11)
+libdir = ${exec_prefix}/lib
+# Umgebung
+GTK_MODULES = gail:atk-bridge
+# Standard
+LINK.s = $(CC) $(ASFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# Makefile (aus „Makefile“, Zeile 12)
+includedir = ${prefix}/include
+# Umgebung
+HOME = /home/gneiss
+# Umgebung
+INSIDE_NAUTILUS_PYTHON = 
+# Umgebung
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# Umgebung
+LOGNAME = gneiss
+# Standard
+MAKE_VERSION := 4.1
+# Umgebung
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatisch
+^D = $(patsubst %/,%,$(dir $^))
+# Umgebung
+XDG_VTNR = 2
+# Umgebung
+MAKELEVEL := 0
+# Standard
+COMPILE.m = $(OBJC) $(OBJCFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# Umgebung
+COLORTERM = truecolor
+# Standard
+MAKE = $(MAKE_COMMAND)
+# Umgebung
+QT_IM_MODULE = ibus
+# Umgebung
+SHLVL = 1
+# Standard
+AS = as
+# Standard
+PREPROCESS.S = $(CC) -E $(CPPFLAGS)
+# Umgebung
+GNOME_SHELL_SESSION_MODE = ubuntu
+# Umgebung
+NAUTILUS_PYTHON_REQUIRE_GTK3 = 1
+# Standard
+COMPILE.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# Umgebung
+XDG_SESSION_ID = 9
+# Umgebung
+USER = gneiss
+# Standard
+FC = f77
+# Makefile
+.DEFAULT_GOAL := all
+# Umgebung
+XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# Makefile (aus „Makefile“, Zeile 1)
+UNAME := Linux
+# automatisch
+%D = $(patsubst %/,%,$(dir $%))
+# Standard
+WEAVE = weave
+# Standard
+MAKE_COMMAND := make
+# Standard
+LINK.cpp = $(LINK.cc)
+# Standard
+F77 = $(FC)
+# Umgebung
+OLDPWD = /home/gneiss/libsml/MyExample/Old
+# Standard
+.VARIABLES := 
+# Standard
+PC = pc
+# automatisch
+*F = $(notdir $*)
+# Makefile (aus „Makefile“, Zeile 6)
+LIBSML = ../sml/lib/libsml.a
+# Standard
+COMPILE.def = $(M2C) $(M2FLAGS) $(DEFFLAGS) $(TARGET_ARCH)
+# Standard
+LEX = lex
+# Makefile
+MAKEFLAGS = p
+# Umgebung
+MFLAGS = -p
+# automatisch
+*D = $(patsubst %/,%,$(dir $*))
+# Standard
+LEX.l = $(LEX) $(LFLAGS) -t
+# Standard
+LEX.m = $(LEX) $(LFLAGS) -t
+# automatisch
++D = $(patsubst %/,%,$(dir $+))
+# Standard
+COMPILE.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -c
+# automatisch
++F = $(notdir $+)
+# Standard
+M2C = m2c
+# Umgebung
+QT_ACCESSIBILITY = 1
+# Umgebung
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# Umgebung
+TEXTDOMAINDIR = /usr/share/locale/
+# Standard
+MAKEFILES := 
+# Standard
+COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# automatisch
+<F = $(notdir $<)
+# Standard
+CXX = g++
+# Standard
+COFLAGS = 
+# Umgebung
+GCC_COLORS = error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01
+# Umgebung
+DBUS_STARTER_BUS_TYPE = session
+# Standard
+COMPILE.C = $(COMPILE.cc)
+# Umgebung
+QT4_IM_MODULE = xim
+# Makefile (aus „Makefile“, Zeile 16)
+LIBS = -lm -luuid
+# Umgebung
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/91d62afb_aad7_47e5_a347_0fb5437dd120
+# automatisch
+^F = $(notdir $^)
+# Standard
+COMPILE.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(TARGET_MACH) -c
+# Standard
+LINK.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# Umgebung
+GNOME_TERMINAL_SERVICE = :1.112
+# Standard
+SUFFIXES := .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+# Standard
+COMPILE.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# Umgebung
+WINDOWPATH = 2
+# Standard
+COMPILE.s = $(AS) $(ASFLAGS) $(TARGET_MACH)
+# Standard
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# Standard
+.RECIPEPREFIX := 
+# Standard
+MAKEINFO = makeinfo
+# Standard
+MAKE_TERMERR := /dev/pts/0
+# Standard
+OBJC = cc
+# Umgebung
+GPG_TTY = /dev/pts/0
+# Standard
+LINK.f = $(FC) $(FFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# Standard
+TEX = tex
+# Umgebung
+LANG = de_DE.UTF-8
+# Umgebung
+TERM = xterm-256color
+# Standard
+F77FLAGS = $(FFLAGS)
+# Standard
+LINK.o = $(CC) $(LDFLAGS) $(TARGET_ARCH)
+# Umgebung
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=a248de99307606863f6e7488660e559d
+# Hashtabellen-Statistik für Variablen:
+# Auslastung=170/1024=17%, Rehash=0, Kollisionen=34/20617%
+
+# Musterspezifische Variablenwerte
+
+# Keine musterspezifischen Variablenwerte.
+
+# Verzeichnisse
+
+# SCCS: Status konnte nicht festgestellt werden.
+# . (Gerät 2065, Inode 6432862): 23 Dateien, 38 Unmöglichkeiten.
+# ../sml/lib (Gerät 2065, Inode 6461069): 6 Dateien, keine Unmöglichkeiten.
+# ../sml/lib/SCCS: Status konnte nicht festgestellt werden.
+# ../sml/lib/RCS: Status konnte nicht festgestellt werden.
+# RCS: Status konnte nicht festgestellt werden.
+
+# 29 Dateien, 38 Unmöglichkeiten in 6 Verzeichnissen.
+
+# Implizite Regeln
+
+%.o: %.c
+#  Auszuführende Regel (aus „Makefile“, Zeile 26):
+	$(CC) $(CFLAGS) -c $^ -o $@
+
+%.o: %.cpp
+#  Auszuführende Regel (aus „Makefile“, Zeile 29):
+	$(COMPILE.cpp) $^ -o $@
+	#COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+
+%.out:
+
+%.a:
+
+%.ln:
+
+%.o:
+
+%: %.o
+#  Auszuführende Regel (eingebaut):
+	$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.c:
+
+%: %.c
+#  Auszuführende Regel (eingebaut):
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.ln: %.c
+#  Auszuführende Regel (eingebaut):
+	$(LINT.c) -C$* $<
+
+%.cc:
+
+%: %.cc
+#  Auszuführende Regel (eingebaut):
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.cc
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+
+%.C:
+
+%: %.C
+#  Auszuführende Regel (eingebaut):
+	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.C
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.C) $(OUTPUT_OPTION) $<
+
+%.cpp:
+
+%: %.cpp
+#  Auszuführende Regel (eingebaut):
+	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.p:
+
+%: %.p
+#  Auszuführende Regel (eingebaut):
+	$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.p
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.p) $(OUTPUT_OPTION) $<
+
+%.f:
+
+%: %.f
+#  Auszuführende Regel (eingebaut):
+	$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.f
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.f) $(OUTPUT_OPTION) $<
+
+%.F:
+
+%: %.F
+#  Auszuführende Regel (eingebaut):
+	$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.F
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.F) $(OUTPUT_OPTION) $<
+
+%.f: %.F
+#  Auszuführende Regel (eingebaut):
+	$(PREPROCESS.F) $(OUTPUT_OPTION) $<
+
+%.m:
+
+%: %.m
+#  Auszuführende Regel (eingebaut):
+	$(LINK.m) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.m
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.m) $(OUTPUT_OPTION) $<
+
+%.r:
+
+%: %.r
+#  Auszuführende Regel (eingebaut):
+	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.r
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.r) $(OUTPUT_OPTION) $<
+
+%.f: %.r
+#  Auszuführende Regel (eingebaut):
+	$(PREPROCESS.r) $(OUTPUT_OPTION) $<
+
+%.y:
+
+%.ln: %.y
+#  Auszuführende Regel (eingebaut):
+	$(YACC.y) $< 
+	 $(LINT.c) -C$* y.tab.c 
+	 $(RM) y.tab.c
+
+%.c: %.y
+#  Auszuführende Regel (eingebaut):
+	$(YACC.y) $< 
+	 mv -f y.tab.c $@
+
+%.l:
+
+%.ln: %.l
+#  Auszuführende Regel (eingebaut):
+	@$(RM) $*.c
+	 $(LEX.l) $< > $*.c
+	$(LINT.c) -i $*.c -o $@
+	 $(RM) $*.c
+
+%.c: %.l
+#  Auszuführende Regel (eingebaut):
+	@$(RM) $@ 
+	 $(LEX.l) $< > $@
+
+%.r: %.l
+#  Auszuführende Regel (eingebaut):
+	$(LEX.l) $< > $@ 
+	 mv -f lex.yy.r $@
+
+%.ym:
+
+%.m: %.ym
+#  Auszuführende Regel (eingebaut):
+	$(YACC.m) $< 
+	 mv -f y.tab.c $@
+
+%.yl:
+
+%.s:
+
+%: %.s
+#  Auszuführende Regel (eingebaut):
+	$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.s
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.s) -o $@ $<
+
+%.S:
+
+%: %.S
+#  Auszuführende Regel (eingebaut):
+	$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+%.o: %.S
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.S) -o $@ $<
+
+%.s: %.S
+#  Auszuführende Regel (eingebaut):
+	$(PREPROCESS.S) $< > $@
+
+%.mod:
+
+%: %.mod
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.mod) -o $@ -e $@ $^
+
+%.o: %.mod
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.mod) -o $@ $<
+
+%.sym:
+
+%.def:
+
+%.sym: %.def
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.def) -o $@ $<
+
+%.h:
+
+%.info:
+
+%.dvi:
+
+%.tex:
+
+%.dvi: %.tex
+#  Auszuführende Regel (eingebaut):
+	$(TEX) $<
+
+%.texinfo:
+
+%.info: %.texinfo
+#  Auszuführende Regel (eingebaut):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.texinfo
+#  Auszuführende Regel (eingebaut):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.texi:
+
+%.info: %.texi
+#  Auszuführende Regel (eingebaut):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.texi
+#  Auszuführende Regel (eingebaut):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.txinfo:
+
+%.info: %.txinfo
+#  Auszuführende Regel (eingebaut):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+%.dvi: %.txinfo
+#  Auszuführende Regel (eingebaut):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+%.w:
+
+%.c: %.w
+#  Auszuführende Regel (eingebaut):
+	$(CTANGLE) $< - $@
+
+%.tex: %.w
+#  Auszuführende Regel (eingebaut):
+	$(CWEAVE) $< - $@
+
+%.ch:
+
+%.web:
+
+%.p: %.web
+#  Auszuführende Regel (eingebaut):
+	$(TANGLE) $<
+
+%.tex: %.web
+#  Auszuführende Regel (eingebaut):
+	$(WEAVE) $<
+
+%.sh:
+
+%: %.sh
+#  Auszuführende Regel (eingebaut):
+	cat $< >$@ 
+	 chmod a+x $@
+
+%.elc:
+
+%.el:
+
+(%): %
+#  Auszuführende Regel (eingebaut):
+	$(AR) $(ARFLAGS) $@ $<
+
+%.out: %
+#  Auszuführende Regel (eingebaut):
+	@rm -f $@ 
+	 cp $< $@
+
+%.c: %.w %.ch
+#  Auszuführende Regel (eingebaut):
+	$(CTANGLE) $^ $@
+
+%.tex: %.w %.ch
+#  Auszuführende Regel (eingebaut):
+	$(CWEAVE) $^ $@
+
+%:: %,v
+#  Auszuführende Regel (eingebaut):
+	$(CHECKOUT,v)
+
+%:: RCS/%,v
+#  Auszuführende Regel (eingebaut):
+	$(CHECKOUT,v)
+
+%:: RCS/%
+#  Auszuführende Regel (eingebaut):
+	$(CHECKOUT,v)
+
+%:: s.%
+#  Auszuführende Regel (eingebaut):
+	$(GET) $(GFLAGS) $(SCCS_OUTPUT_OPTION) $<
+
+%:: SCCS/s.%
+#  Auszuführende Regel (eingebaut):
+	$(GET) $(GFLAGS) $(SCCS_OUTPUT_OPTION) $<
+
+# 92 implizite Regeln, 5 (5,4%) Terminal.
+
+# Dateien
+
+# Dies ist kein Ziel:
+.web.p:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(TANGLE) $<
+
+sml_server: SmlCommon.o SmlCrc16.o SmlByteReader.o SmlBuffer.o Decoder.o SmlServer.o ../sml/lib/libsml.a
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zuletzt geändert 2024-04-04 09:45:48.491463542
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 22):
+	$(LINK.cc) $(OBJS) $(LIBSML) $(LIBS) -o sml_server
+	#$(CC) $(OBJS) $(LIBSML) $(LIBS) -o sml_server
+
+# Dies ist kein Ziel:
+.l.r:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LEX.l) $< > $@ 
+	 mv -f lex.yy.r $@
+
+# Dies ist kein Ziel:
+.dvi:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.ym:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.f.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.f) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+.l:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.m:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.m) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Dies ist kein Ziel:
+.ln:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Dies ist kein Ziel:
+.y:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.def.sym:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.def) -o $@ $<
+
+.PHONY: clean install uninstall
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+../sml/lib/libsml.a:
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Zuletzt geändert 2024-04-03 05:06:43.138665005
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+
+SmlServer.o: SmlServer.cpp
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Wurzel impliziter/statischer Muster: „SmlServer“
+#  Zuletzt geändert 2024-04-04 09:45:48.371463129
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 29):
+	$(COMPILE.cpp) $^ -o $@
+	#COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+
+# Dies ist kein Ziel:
+.p.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.p) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+.p:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Dies ist kein Ziel:
+.txinfo.dvi:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# Dies ist kein Ziel:
+.a:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+Decoder.cpp:
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Zuletzt geändert 2024-04-04 06:05:16.479305
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+
+# Dies ist kein Ziel:
+.yl:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.l.ln:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	@$(RM) $*.c
+	 $(LEX.l) $< > $*.c
+	$(LINT.c) -i $*.c -o $@
+	 $(RM) $*.c
+
+# Dies ist kein Ziel:
+.F.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.F) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+.texi.info:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# Dies ist kein Ziel:
+.w.c:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(CTANGLE) $< - $@
+
+# Dies ist kein Ziel:
+.texi.dvi:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# Dies ist kein Ziel:
+.ch:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.m.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.m) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+.cc:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+SmlByteReader.o: SmlByteReader.cpp
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Wurzel impliziter/statischer Muster: „SmlByteReader“
+#  Zuletzt geändert 2024-04-04 09:45:48.179462468
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 29):
+	$(COMPILE.cpp) $^ -o $@
+	#COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+
+# Dies ist kein Ziel:
+.cc.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+.def:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.SUFFIXES: .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+uninstall:
+#  Vorgetäuschtes Ziel (benötigt von .PHONY).
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Die Datei existiert nicht.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 42):
+	@rm -f $(DESTDIR)$(bindir)/sml_server
+
+Decoder.o: Decoder.cpp
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Wurzel impliziter/statischer Muster: „Decoder“
+#  Zuletzt geändert 2024-04-04 09:45:48.311462923
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 29):
+	$(COMPILE.cpp) $^ -o $@
+	#COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+
+# Dies ist kein Ziel:
+.c.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.c) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+Makefile:
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Zuletzt geändert 2024-04-04 05:40:36.7247544
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+
+# Dies ist kein Ziel:
+.r.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.r) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+.r:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Dies ist kein Ziel:
+.ym.m:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(YACC.m) $< 
+	 mv -f y.tab.c $@
+
+# Dies ist kein Ziel:
+.y.ln:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(YACC.y) $< 
+	 $(LINT.c) -C$* y.tab.c 
+	 $(RM) y.tab.c
+
+SmlCrc16.o: SmlCrc16.cpp
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Wurzel impliziter/statischer Muster: „SmlCrc16“
+#  Zuletzt geändert 2024-04-04 09:45:48.131462303
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 29):
+	$(COMPILE.cpp) $^ -o $@
+	#COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+
+# Dies ist kein Ziel:
+.elc:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.l.c:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	@$(RM) $@ 
+	 $(LEX.l) $< > $@
+
+# Dies ist kein Ziel:
+.out:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+all: sml_server
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Die Datei existiert nicht.
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+
+# Dies ist kein Ziel:
+.C:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Dies ist kein Ziel:
+SmlBuffer.cpp:
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Zuletzt geändert 2024-04-04 05:35:40.8854133
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+
+# Dies ist kein Ziel:
+.r.f:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(PREPROCESS.r) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+.S:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Dies ist kein Ziel:
+.texinfo.info:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# Dies ist kein Ziel:
+.c:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Dies ist kein Ziel:
+.w.tex:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(CWEAVE) $< - $@
+
+# Dies ist kein Ziel:
+.c.ln:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINT.c) -C$* $<
+
+# Dies ist kein Ziel:
+.s.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.s) -o $@ $<
+
+# Dies ist kein Ziel:
+.s:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Dies ist kein Ziel:
+SmlCommon.cpp:
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Zuletzt geändert 2024-04-04 06:04:54.0427094
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+
+# Dies ist kein Ziel:
+.texinfo.dvi:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# Dies ist kein Ziel:
+.el:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.lm.m:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	@$(RM) $@ 
+	 $(LEX.m) $< > $@
+
+# Dies ist kein Ziel:
+.y.c:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(YACC.y) $< 
+	 mv -f y.tab.c $@
+
+# Dies ist kein Ziel:
+.web.tex:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(WEAVE) $<
+
+# Dies ist kein Ziel:
+.texinfo:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.DEFAULT:
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.h:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.tex.dvi:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(TEX) $<
+
+# Dies ist kein Ziel:
+.cpp.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.cpp) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+.cpp:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+clean:
+#  Vorgetäuschtes Ziel (benötigt von .PHONY).
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Die Datei existiert nicht.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 34):
+	@rm -f *.o
+	@rm -f sml_server
+
+# Dies ist kein Ziel:
+.C.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.C) $(OUTPUT_OPTION) $<
+
+# Dies ist kein Ziel:
+.texi:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.txinfo:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.tex:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+SmlServer.cpp:
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Zuletzt geändert 2024-04-04 06:09:28.1539614
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+
+# Dies ist kein Ziel:
+.txinfo.info:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# Dies ist kein Ziel:
+.sh:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	cat $< >$@ 
+	 chmod a+x $@
+
+# Dies ist kein Ziel:
+SmlByteReader.cpp:
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Zuletzt geändert 2024-04-04 05:16:56.306975
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+
+# Dies ist kein Ziel:
+.S.s:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(PREPROCESS.S) $< > $@
+
+# Dies ist kein Ziel:
+.mod:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.mod) -o $@ -e $@ $^
+
+# Dies ist kein Ziel:
+.mod.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.mod) -o $@ $<
+
+# Dies ist kein Ziel:
+.F.f:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(PREPROCESS.F) $(OUTPUT_OPTION) $<
+
+SmlBuffer.o: SmlBuffer.cpp
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Wurzel impliziter/statischer Muster: „SmlBuffer“
+#  Zuletzt geändert 2024-04-04 09:45:48.235462661
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 29):
+	$(COMPILE.cpp) $^ -o $@
+	#COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+
+# Dies ist kein Ziel:
+.w:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.S.o:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(COMPILE.S) -o $@ $<
+
+# Dies ist kein Ziel:
+SmlCrc16.cpp:
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Zuletzt geändert 2024-04-04 04:35:26.5507377
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+
+# Dies ist kein Ziel:
+.F:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+SmlCommon.o: SmlCommon.cpp
+#  Die Suche nach impliziten Regeln wurde durchgeführt.
+#  Wurzel impliziter/statischer Muster: „SmlCommon“
+#  Zuletzt geändert 2024-04-04 09:45:48.083462139
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 29):
+	$(COMPILE.cpp) $^ -o $@
+	#COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+
+# Dies ist kein Ziel:
+.web:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.sym:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.f:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (eingebaut):
+	$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# Dies ist kein Ziel:
+.info:
+# Eingebaute Regel
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Zeit der letzten Änderung wurde nicht überprüft.
+#  Datei wurde nicht aktualisiert.
+
+install: sml_server
+#  Vorgetäuschtes Ziel (benötigt von .PHONY).
+#  Die Suche nach impliziten Regeln wurde nicht durchgeführt.
+#  Die Datei existiert nicht.
+#  Datei wurde nicht aktualisiert.
+#  Auszuführende Regel (aus „Makefile“, Zeile 38):
+	$(INSTALL) -d $(DESTDIR)$(bindir)
+	$(INSTALL) sml_server $(DESTDIR)$(bindir)
+
+# Statistik der Hash-Tabelle für Dateien:
+# Auslastung=92/1024=9%, Rehash=0, Kollisionen=510/172530%
+# VPATH-Suchpfade
+
+# Keine „vpath“-Suchpfade.
+
+# Kein allgemeiner Suchpfad (Variable „VPATH“).
+
+# Puffer für strcache: 1 (0) / Zeichenketten = 438 / Speicher = 4815 B / ø = 10 B
+# aktueller Puffer: Größe = 8162 B / benutzt = 4815 B / Anzahl = 438 / ø = 10 B
+
+# Leistung von strcache: Suchen = 734 / Trefferrate = 40%
+# Statistik für Hashtabelle:
+# Auslastung=438/8192=5%, Rehash=0, Kollisionen=217/73430%
+# „Make“-Datenbank beendet am: Thu Apr  4 09:46:29 2024
+
