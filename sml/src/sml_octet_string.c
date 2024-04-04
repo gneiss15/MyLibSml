@@ -77,7 +77,7 @@ octet_string *sml_octet_string_parse(sml_buffer *buf) {
 	}
 
 	l = sml_buf_get_next_length(buf);
-	if (l < 0 || l >= (buf->buffer_len - buf->cursor)) { // sanity check: doesnt fit into buffer...
+	if (l < 0 || l >= (int)(buf->buffer_len - buf->cursor)) { // sanity check: doesnt fit into buffer...
 		// libFuzzer fix for crash-3b12f21fdd346700ac1a10dfebba7604be8f070c
 		buf->error = 1;
 		return NULL;
